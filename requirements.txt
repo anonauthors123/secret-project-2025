@@ -1,0 +1,12 @@
+jsonlines
+openai
+tiktoken
+tqdm
+transformers
+pefile
+pandas
+scikit_learn
+jieba
+matplotlib
+numpy
+torch

@@ -1,0 +1,823 @@
+[
+    {
+        "id": 4091,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "03577d6a0beff2aded55d4ae40d1058905233536",
+        "src_file": "drivers/video/fbdev/mxsfb.c",
+        "a_bin_file": "v_Ours_NA_7243_mxsfb.o",
+        "b_bin_file": "p_Ours_NA_7243_mxsfb.o",
+        "a_ass_pse_file": "v_Ours_NA_7243_mxsfb:mxsfb_init_fbinfo.json",
+        "b_ass_pse_file": "p_Ours_NA_7243_mxsfb:mxsfb_init_fbinfo.json",
+        "diff_functions": [
+            "mxsfb_init_fbinfo"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 6891,
+        "optimize_level": "O3",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "09b3c3fbbee9aef8ac5d9148ae61aae35766b2a6",
+        "src_file": "net/bluetooth/hci_core.c",
+        "a_bin_file": "v_Ours_NA_8163_hci_core.o",
+        "b_bin_file": "p_Ours_NA_8163_hci_core.o",
+        "a_ass_pse_file": "v_Ours_NA_8163_hci_core:hci_dev_do_close.json",
+        "b_ass_pse_file": "p_Ours_NA_8163_hci_core:hci_dev_do_close.json",
+        "diff_functions": [
+            "hci_dev_do_close"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 284,
+        "optimize_level": "O3",
+        "project_dir": "1_FFmpeg_security_pairs_435",
+        "source": "ffmpeg/ffmpeg",
+        "commit_id": "7ac5067146613997bb38442cb022d7f41321a706",
+        "src_file": "libavcodec/scpr.c",
+        "a_bin_file": "v_RP_CVE-2017-9995_2071_scpr.o",
+        "b_bin_file": "p_RP_CVE-2017-9995_2071_scpr.o",
+        "a_ass_pse_file": "v_RP_CVE-2017-9995_2071_scpr:decompress_i.json",
+        "b_ass_pse_file": "p_RP_CVE-2017-9995_2071_scpr:decompress_i.json",
+        "diff_functions": [
+            "decompress_i"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 5191,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "a56177e18f2e44499a8bf5bc03dbe896dbec657d",
+        "src_file": "drivers/net/ethernet/chelsio/cxgb4/cxgb4_main.c",
+        "a_bin_file": "v_Ours_NA_7174_cxgb4_main.o",
+        "b_bin_file": "p_Ours_NA_7174_cxgb4_main.o",
+        "a_ass_pse_file": "v_Ours_NA_7174_cxgb4_main:cfg_queues.json",
+        "b_ass_pse_file": "p_Ours_NA_7174_cxgb4_main:cfg_queues.json",
+        "diff_functions": [
+            "cfg_queues"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 5748,
+        "optimize_level": "O2",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "6e17bfbc75a5cb9c363ba488bf57cd0152bc3ec0",
+        "src_file": "fs/f2fs/gc.c",
+        "a_bin_file": "v_Ours_NA_7620_gc.o",
+        "b_bin_file": "p_Ours_NA_7620_gc.o",
+        "a_ass_pse_file": "v_Ours_NA_7620_gc:f2fs_gc.json",
+        "b_ass_pse_file": "p_Ours_NA_7620_gc:f2fs_gc.json",
+        "diff_functions": [
+            "f2fs_gc"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4224,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "514952889544fcb069bbedfec4aa624fc9e26c4b",
+        "src_file": "drivers/net/wireless/marvell/mwifiex/pcie.c",
+        "a_bin_file": "v_Ours_NA_8230_pcie.o",
+        "b_bin_file": "p_Ours_NA_8230_pcie.o",
+        "a_ass_pse_file": "v_Ours_NA_8230_pcie:mwifiex_process_pcie_int.json",
+        "b_ass_pse_file": "p_Ours_NA_8230_pcie:mwifiex_process_pcie_int.json",
+        "diff_functions": [
+            "mwifiex_process_pcie_int"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4249,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "ee9c5cfad29c8a13199962614b9b16f1c4137ac9",
+        "src_file": "drivers/net/niu.c",
+        "a_bin_file": "v_Ours_NA_8545_niu.o",
+        "b_bin_file": "p_Ours_NA_8545_niu.o",
+        "a_ass_pse_file": "v_Ours_NA_8545_niu:niu_get_ethtool_tcam_all.json",
+        "b_ass_pse_file": "p_Ours_NA_8545_niu:niu_get_ethtool_tcam_all.json",
+        "diff_functions": [
+            "niu_get_ethtool_tcam_all"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 6342,
+        "optimize_level": "O3",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "ac278a9c505092dd82077a2446af8f9fc0d9c095",
+        "src_file": "fs/namei.c",
+        "a_bin_file": "v_Ours_NA_8128_namei.o",
+        "b_bin_file": "p_Ours_NA_8128_namei.o",
+        "a_ass_pse_file": "v_Ours_NA_8128_namei:do_lookup.json",
+        "b_ass_pse_file": "p_Ours_NA_8128_namei:do_lookup.json",
+        "diff_functions": [
+            "do_lookup",
+            "link_path_walk"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 2348,
+        "optimize_level": "O2",
+        "project_dir": "1_Linux_security_pairs_2931",
+        "source": "torvalds/linux",
+        "commit_id": "0449641130f5652b344ef6fa39fa019d7e94660a",
+        "src_file": "fs/ext4/super.c",
+        "a_bin_file": "v_PDB_CVE-2011-2493_31921_super.o",
+        "b_bin_file": "p_PDB_CVE-2011-2493_31921_super.o",
+        "a_ass_pse_file": "v_PDB_CVE-2011-2493_31921_super:ext4_fill_super.json",
+        "b_ass_pse_file": "p_PDB_CVE-2011-2493_31921_super:ext4_fill_super.json",
+        "diff_functions": [
+            "ext4_fill_super"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4170,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "e83596b41cb9729837468a1c14de56a5529a2aa6",
+        "src_file": "drivers/scsi/pm8001/pm8001_init.c",
+        "a_bin_file": "v_Ours_NA_6604_pm8001_init.o",
+        "b_bin_file": "p_Ours_NA_6604_pm8001_init.o",
+        "a_ass_pse_file": "v_Ours_NA_6604_pm8001_init:pm8001_ioremap.json",
+        "b_ass_pse_file": "p_Ours_NA_6604_pm8001_init:pm8001_ioremap.json",
+        "diff_functions": [
+            "pm8001_ioremap"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 7338,
+        "optimize_level": "Os",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "810810ffb2f6d46365d0790bbe77698a5534393a",
+        "src_file": "drivers/net/ethernet/qlogic/qede/qede_main.c",
+        "a_bin_file": "v_Ours_NA_6847_qede_main.o",
+        "b_bin_file": "p_Ours_NA_6847_qede_main.o",
+        "a_ass_pse_file": "v_Ours_NA_6847_qede_main:qede_start_xmit.json",
+        "b_ass_pse_file": "p_Ours_NA_6847_qede_main:qede_start_xmit.json",
+        "diff_functions": [
+            "qede_start_xmit"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 5259,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "310d3d314be7f0a84011ebdc4bdccbcae9755a87",
+        "src_file": "drivers/target/target_core_transport.c",
+        "a_bin_file": "v_Ours_NA_7809_target_core_transport.o",
+        "b_bin_file": "p_Ours_NA_7809_target_core_transport.o",
+        "a_ass_pse_file": "v_Ours_NA_7809_target_core_transport:transport_send_task_abort.json",
+        "b_ass_pse_file": "p_Ours_NA_7809_target_core_transport:transport_send_task_abort.json",
+        "diff_functions": [
+            "e",
+            "target_handle_task_attr",
+            "transport_send_task_abort"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4125,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "548aedac5128e4bb256bab5c8e1db88e626697fc",
+        "src_file": "fs/f2fs/gc.c",
+        "a_bin_file": "v_Ours_NA_7642_gc.o",
+        "b_bin_file": "p_Ours_NA_7642_gc.o",
+        "a_ass_pse_file": "v_Ours_NA_7642_gc:move_encrypted_block.json",
+        "b_ass_pse_file": "p_Ours_NA_7642_gc:move_encrypted_block.json",
+        "diff_functions": [
+            "move_encrypted_block"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 3949,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "0dbf657c3993a269fa0cd7dabbb9c02741d4aefa",
+        "src_file": "drivers/net/ethernet/mellanox/mlx5/core/en_tx.c",
+        "a_bin_file": "v_Ours_NA_7221_en_tx.o",
+        "b_bin_file": "p_Ours_NA_7221_en_tx.o",
+        "a_ass_pse_file": "v_Ours_NA_7221_en_tx:mlx5e_sq_xmit.json",
+        "b_ass_pse_file": "p_Ours_NA_7221_en_tx:mlx5e_sq_xmit.json",
+        "diff_functions": [
+            "mlx5e_sq_xmit"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 7953,
+        "optimize_level": "O0",
+        "project_dir": "1_MediaTree_security_pairs_148",
+        "source": "stoth68000/media-tree",
+        "commit_id": "0a9ab9bdb3e891762553f667066190c1d22ad62b",
+        "src_file": "net/bluetooth/hidp/core.c",
+        "a_bin_file": "v_PDB_CVE-2013-0349_27641_core.o",
+        "b_bin_file": "p_PDB_CVE-2013-0349_27641_core.o",
+        "a_ass_pse_file": "v_PDB_CVE-2013-0349_27641_core:hidp_setup_hid.json",
+        "b_ass_pse_file": "p_PDB_CVE-2013-0349_27641_core:hidp_setup_hid.json",
+        "diff_functions": [
+            "hidp_setup_hid"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 7163,
+        "optimize_level": "Os",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "d08935c274b7e552e47633cf0cbd74b6e953d228",
+        "src_file": "drivers/net/ixgbe/ixgbe_main.c",
+        "a_bin_file": "v_Ours_NA_7673_ixgbe_main.o",
+        "b_bin_file": "p_Ours_NA_7673_ixgbe_main.o",
+        "a_ass_pse_file": "v_Ours_NA_7673_ixgbe_main:ixgbe_update_stats.json",
+        "b_ass_pse_file": "p_Ours_NA_7673_ixgbe_main:ixgbe_update_stats.json",
+        "diff_functions": [
+            "ixgbe_update_stats"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 1238,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_2931",
+        "source": "torvalds/linux",
+        "commit_id": "6217e5ede23285ddfee10d2e4ba0cc2d4c046205",
+        "src_file": "sound/core/compress_offload.c",
+        "a_bin_file": "v_PDB_CVE-2014-9904_15925_compress_offload.o",
+        "b_bin_file": "p_PDB_CVE-2014-9904_15925_compress_offload.o",
+        "a_ass_pse_file": "v_PDB_CVE-2014-9904_15925_compress_offload:snd_compress_check_input.json",
+        "b_ass_pse_file": "p_PDB_CVE-2014-9904_15925_compress_offload:snd_compress_check_input.json",
+        "diff_functions": [
+            "snd_compress_check_input"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4264,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "ba3ed4c57fde2df1a8a5b0c445ae5d685334e5f9",
+        "src_file": "drivers/media/common/saa7146_video.c",
+        "a_bin_file": "v_Ours_NA_6985_saa7146_video.o",
+        "b_bin_file": "p_Ours_NA_6985_saa7146_video.o",
+        "a_ass_pse_file": "v_Ours_NA_6985_saa7146_video:set_control.json",
+        "b_ass_pse_file": "p_Ours_NA_6985_saa7146_video:set_control.json",
+        "diff_functions": [
+            "set_control"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 5226,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "6b3c33e985f20e7de07fc4b9b1a96dc452e37cb4",
+        "src_file": "drivers/net/wireless/realtek/rtlwifi/rtl8723be/phy.c",
+        "a_bin_file": "v_Ours_NA_8134_phy.o",
+        "b_bin_file": "p_Ours_NA_8134_phy.o",
+        "a_ass_pse_file": "v_Ours_NA_8134_phy:_rtl8723be_get_txpower_index.json",
+        "b_ass_pse_file": "p_Ours_NA_8134_phy:_rtl8723be_get_txpower_index.json",
+        "diff_functions": [
+            "_rtl8723be_get_txpower_index"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 5073,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "d109e61bfe7a468fd8df4a7ceb65635e7aa909a0",
+        "src_file": "net/ipv4/route.c",
+        "a_bin_file": "v_Ours_NA_7542_route.o",
+        "b_bin_file": "p_Ours_NA_7542_route.o",
+        "a_ass_pse_file": "v_Ours_NA_7542_route:__build_flow_key.json",
+        "b_ass_pse_file": "p_Ours_NA_7542_route:__build_flow_key.json",
+        "diff_functions": [
+            "__build_flow_key"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4004,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "2b67f8ba41ac7acf01c8d5c742c713ead8b589cd",
+        "src_file": "sound/soc/soc-generic-dmaengine-pcm.c",
+        "a_bin_file": "v_Ours_NA_6646_soc-generic-dmaengine-pcm.o",
+        "b_bin_file": "p_Ours_NA_6646_soc-generic-dmaengine-pcm.o",
+        "a_ass_pse_file": "v_Ours_NA_6646_soc-generic-dmaengine-pcm:dmaengine_pcm_request_chan_of.json",
+        "b_ass_pse_file": "p_Ours_NA_6646_soc-generic-dmaengine-pcm:dmaengine_pcm_request_chan_of.json",
+        "diff_functions": [
+            "dmaengine_pcm_request_chan_of"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 783,
+        "optimize_level": "O0",
+        "project_dir": "1_Libav_security_pairs_138",
+        "source": "libav/libav",
+        "commit_id": "1302ccc1a771d6e713a28fbbf70fc6cd6ae93b07",
+        "src_file": "libavcodec/wmavoice.c",
+        "a_bin_file": "v_PDB_NA_537_wmavoice.o",
+        "b_bin_file": "p_PDB_NA_537_wmavoice.o",
+        "a_ass_pse_file": "v_PDB_NA_537_wmavoice:wiener_denoise.json",
+        "b_ass_pse_file": "p_PDB_NA_537_wmavoice:wiener_denoise.json",
+        "diff_functions": [
+            "wiener_denoise"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4108,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "fd3c8ac9cb653f7e3122bba9bc7beaad6062b7f4",
+        "src_file": "sound/soc/codecs/ad1836.c",
+        "a_bin_file": "v_Ours_NA_7493_ad1836.o",
+        "b_bin_file": "p_Ours_NA_7493_ad1836.o",
+        "a_ass_pse_file": "v_Ours_NA_7493_ad1836:ad1836_register.json",
+        "b_ass_pse_file": "p_Ours_NA_7493_ad1836:ad1836_register.json",
+        "diff_functions": [
+            "ad1836_register"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 3998,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "07d2390e36ee5b3265e9cc8305f2a106c8721e16",
+        "src_file": "drivers/iio/magnetometer/ak8975.c",
+        "a_bin_file": "v_Ours_NA_6944_ak8975.o",
+        "b_bin_file": "p_Ours_NA_6944_ak8975.o",
+        "a_ass_pse_file": "v_Ours_NA_6944_ak8975:ak8975_setup_irq.json",
+        "b_ass_pse_file": "p_Ours_NA_6944_ak8975:ak8975_setup_irq.json",
+        "diff_functions": [
+            "ak8975_setup_irq"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 5135,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "c4435630361d9bebf7154a0c842dc1fb7ae39c99",
+        "src_file": "drivers/cpufreq/cpufreq_ondemand.c",
+        "a_bin_file": "v_Ours_NA_6821_cpufreq_ondemand.o",
+        "b_bin_file": "p_Ours_NA_6821_cpufreq_ondemand.o",
+        "a_ass_pse_file": "v_Ours_NA_6821_cpufreq_ondemand:store_powersave_bias.json",
+        "b_ass_pse_file": "p_Ours_NA_6821_cpufreq_ondemand:store_powersave_bias.json",
+        "diff_functions": [
+            "store_powersave_bias"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 71,
+        "optimize_level": "O0",
+        "project_dir": "1_FFmpeg_security_pairs_435",
+        "source": "ffmpeg/ffmpeg",
+        "commit_id": "bab0716c7f4793ec42e05a5aa7e80d82a0dd4e75",
+        "src_file": "libavformat/mxfdec.c",
+        "a_bin_file": "v_RP_CVE-2018-1999014_2964_mxfdec.o",
+        "b_bin_file": "p_RP_CVE-2018-1999014_2964_mxfdec.o",
+        "a_ass_pse_file": "v_RP_CVE-2018-1999014_2964_mxfdec:mxf_parse_structural_metadata.json",
+        "b_ass_pse_file": "p_RP_CVE-2018-1999014_2964_mxfdec:mxf_parse_structural_metadata.json",
+        "diff_functions": [
+            "mxf_parse_structural_metadata"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 788,
+        "optimize_level": "O0",
+        "project_dir": "1_Libav_security_pairs_138",
+        "source": "libav/libav",
+        "commit_id": "26f027fba1c5ab482fa2488fbe0fa36c8bb33b69",
+        "src_file": "libavformat/utils.c",
+        "a_bin_file": "v_PDB_NA_534_utils.o",
+        "b_bin_file": "p_PDB_NA_534_utils.o",
+        "a_ass_pse_file": "v_PDB_NA_534_utils:estimate_timings_from_bit_rate.json",
+        "b_ass_pse_file": "p_PDB_NA_534_utils:estimate_timings_from_bit_rate.json",
+        "diff_functions": [
+            "estimate_timings_from_bit_rate"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4192,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167",
+        "src_file": "drivers/scsi/arcmsr/arcmsr_hba.c",
+        "a_bin_file": "v_Ours_NA_7013_arcmsr_hba.o",
+        "b_bin_file": "p_Ours_NA_7013_arcmsr_hba.o",
+        "a_ass_pse_file": "v_Ours_NA_7013_arcmsr_hba:arcmsr_iop_message_xfer.json",
+        "b_ass_pse_file": "p_Ours_NA_7013_arcmsr_hba:arcmsr_iop_message_xfer.json",
+        "diff_functions": [
+            "arcmsr_iop_message_xfer"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 7266,
+        "optimize_level": "Os",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "daa864b8f8e34477bde817f26d736d89dc6032f3",
+        "src_file": "arch/x86/events/intel/core.c",
+        "a_bin_file": "v_Ours_NA_7377_core.o",
+        "b_bin_file": "p_Ours_NA_7377_core.o",
+        "a_ass_pse_file": "v_Ours_NA_7377_core:intel_pmu_handle_irq.json",
+        "b_ass_pse_file": "p_Ours_NA_7377_core:intel_pmu_handle_irq.json",
+        "diff_functions": [
+            "intel_pmu_handle_irq"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4215,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "e6838a29ecb484c97e4efef9429643b9851fba6e",
+        "src_file": "fs/nfsd/nfssvc.c",
+        "a_bin_file": "v_Ours_NA_7356_nfssvc.o",
+        "b_bin_file": "p_Ours_NA_7356_nfssvc.o",
+        "a_ass_pse_file": "v_Ours_NA_7356_nfssvc:map_new_errors.json",
+        "b_ass_pse_file": "p_Ours_NA_7356_nfssvc:map_new_errors.json",
+        "diff_functions": [
+            "h",
+            "map_new_errors"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4233,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "a3b2ee1d3ef56d0221fc5b246368dc13cf6b8ba4",
+        "src_file": "drivers/staging/comedi/drivers/das16.c",
+        "a_bin_file": "v_Ours_NA_8404_das16.o",
+        "b_bin_file": "p_Ours_NA_8404_das16.o",
+        "a_ass_pse_file": "v_Ours_NA_8404_das16:das16_interrupt.json",
+        "b_ass_pse_file": "p_Ours_NA_8404_das16:das16_interrupt.json",
+        "diff_functions": [
+            "das16_interrupt"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4296,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "875b4e3763dbc941f15143dd1a18d10bb0be303b",
+        "src_file": "drivers/hid/hid-ntrig.c",
+        "a_bin_file": "v_Ours_NA_7250_hid-ntrig.o",
+        "b_bin_file": "p_Ours_NA_7250_hid-ntrig.o",
+        "a_ass_pse_file": "v_Ours_NA_7250_hid-ntrig:ntrig_get_mode.json",
+        "b_ass_pse_file": "p_Ours_NA_7250_hid-ntrig:ntrig_get_mode.json",
+        "diff_functions": [
+            "ntrig_get_mode"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 3976,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "94cdc5608b5561aeda80edda9c9223608a1da6fc",
+        "src_file": "drivers/hwmon/max31790.c",
+        "a_bin_file": "v_Ours_NA_7781_max31790.o",
+        "b_bin_file": "p_Ours_NA_7781_max31790.o",
+        "a_ass_pse_file": "v_Ours_NA_7781_max31790:max31790_read_pwm.json",
+        "b_ass_pse_file": "p_Ours_NA_7781_max31790:max31790_read_pwm.json",
+        "diff_functions": [
+            "max31790_read_pwm"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 79,
+        "optimize_level": "O0",
+        "project_dir": "1_FFmpeg_security_pairs_435",
+        "source": "ffmpeg/ffmpeg",
+        "commit_id": "7150f9575671f898382c370acae35f9087a30ba1",
+        "src_file": "libavcodec/dnxhddec.c",
+        "a_bin_file": "v_RP_CVE-2021-38114_6410_dnxhddec.o",
+        "b_bin_file": "p_RP_CVE-2021-38114_6410_dnxhddec.o",
+        "a_ass_pse_file": "v_RP_CVE-2021-38114_6410_dnxhddec:dnxhd_init_vlc.json",
+        "b_ass_pse_file": "p_RP_CVE-2021-38114_6410_dnxhddec:dnxhd_init_vlc.json",
+        "diff_functions": [
+            "dnxhd_init_vlc"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4326,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "7622b25543665567d8830a63210385b7d705924b",
+        "src_file": "drivers/gpu/drm/vc4/vc4_crtc.c",
+        "a_bin_file": "v_Ours_NA_7405_vc4_crtc.o",
+        "b_bin_file": "p_Ours_NA_7405_vc4_crtc.o",
+        "a_ass_pse_file": "v_Ours_NA_7405_vc4_crtc:vc4_crtc_destroy_state.json",
+        "b_ass_pse_file": "p_Ours_NA_7405_vc4_crtc:vc4_crtc_destroy_state.json",
+        "diff_functions": [
+            "vc4_crtc_destroy_state"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4213,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "aee3960a0ca34f8bf7dbcdb330c4f37a0f94dd8a",
+        "src_file": "drivers/gpu/drm/amd/amdgpu/si_dpm.c",
+        "a_bin_file": "v_Ours_NA_6721_si_dpm.o",
+        "b_bin_file": "p_Ours_NA_6721_si_dpm.o",
+        "a_ass_pse_file": "v_Ours_NA_6721_si_dpm:si_apply_state_adjust_rules.json",
+        "b_ass_pse_file": "p_Ours_NA_6721_si_dpm:si_apply_state_adjust_rules.json",
+        "diff_functions": [
+            "si_apply_state_adjust_rules"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 1402,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_2931",
+        "source": "torvalds/linux",
+        "commit_id": "b69f2292063d2caf37ca9aec7d63ded203701bf3",
+        "src_file": "block/blk-ioc.c",
+        "a_bin_file": "v_RP_CVE-2012-0879_78_blk-ioc.o",
+        "b_bin_file": "p_RP_CVE-2012-0879_78_blk-ioc.o",
+        "a_ass_pse_file": "v_RP_CVE-2012-0879_78_blk-ioc:cfq_exit.json",
+        "b_ass_pse_file": "p_RP_CVE-2012-0879_78_blk-ioc:cfq_exit.json",
+        "diff_functions": [
+            "cfq_exit"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 776,
+        "optimize_level": "O0",
+        "project_dir": "1_Libav_security_pairs_138",
+        "source": "libav/libav",
+        "commit_id": "68fd077f68bdde864bb7328d72a040849c616261",
+        "src_file": "libavcodec/indeo4.c",
+        "a_bin_file": "v_PDB_NA_548_indeo4.o",
+        "b_bin_file": "p_PDB_NA_548_indeo4.o",
+        "a_ass_pse_file": "v_PDB_NA_548_indeo4:decode_band_hdr.json",
+        "b_ass_pse_file": "p_PDB_NA_548_indeo4:decode_band_hdr.json",
+        "diff_functions": [
+            "decode_band_hdr"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4068,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "cea3235cf578b5e952f5a0cec9bc6c2e862eb697",
+        "src_file": "drivers/net/wireless/ath/ath9k/htc_drv_beacon.c",
+        "a_bin_file": "v_Ours_NA_8372_htc_drv_beacon.o",
+        "b_bin_file": "p_Ours_NA_8372_htc_drv_beacon.o",
+        "a_ass_pse_file": "v_Ours_NA_8372_htc_drv_beacon:ath9k_htc_send_buffered.json",
+        "b_ass_pse_file": "p_Ours_NA_8372_htc_drv_beacon:ath9k_htc_send_buffered.json",
+        "diff_functions": [
+            "ath9k_htc_send_buffered"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 752,
+        "optimize_level": "O0",
+        "project_dir": "1_Libav_security_pairs_138",
+        "source": "libav/libav",
+        "commit_id": "f48fbf2eb5ba7015c65b31c266edf399dd6a82b1",
+        "src_file": "libavcodec/wmalosslessdec.c",
+        "a_bin_file": "v_PDB_NA_522_wmalosslessdec.o",
+        "b_bin_file": "p_PDB_NA_522_wmalosslessdec.o",
+        "a_ass_pse_file": "v_PDB_NA_522_wmalosslessdec:decode_ac_filter.json",
+        "b_ass_pse_file": "p_PDB_NA_522_wmalosslessdec:decode_ac_filter.json",
+        "diff_functions": [
+            "decode_ac_filter"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4145,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "ed87c2b2e7dd34016017af183b8f3fbe28179bc1",
+        "src_file": "drivers/staging/vt6655/hostap.c",
+        "a_bin_file": "v_Ours_NA_7075_hostap.o",
+        "b_bin_file": "p_Ours_NA_7075_hostap.o",
+        "a_ass_pse_file": "v_Ours_NA_7075_hostap:hostap_set_generic_element.json",
+        "b_ass_pse_file": "p_Ours_NA_7075_hostap:hostap_set_generic_element.json",
+        "diff_functions": [
+            "hostap_set_generic_element"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4514,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "8f6fc8d4e7ae2347d6261d11a7eb2b247d2954d8",
+        "src_file": "drivers/scsi/qla2xxx/qla_target.c",
+        "a_bin_file": "v_Ours_NA_6833_qla_target.o",
+        "b_bin_file": "p_Ours_NA_6833_qla_target.o",
+        "a_ass_pse_file": "v_Ours_NA_6833_qla_target:qlt_send_term_imm_notif.json",
+        "b_ass_pse_file": "p_Ours_NA_6833_qla_target:qlt_send_term_imm_notif.json",
+        "diff_functions": [
+            "qlt_24xx_atio_pkt_all_vps",
+            "qlt_send_term_imm_notif"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 6955,
+        "optimize_level": "O3",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "d5e84fd8d0634d056248b67463b42f6c85896a19",
+        "src_file": "fs/btrfs/send.c",
+        "a_bin_file": "v_Ours_NA_7495_send.o",
+        "b_bin_file": "p_Ours_NA_7495_send.o",
+        "a_ass_pse_file": "v_Ours_NA_7495_send:changed_extent.json",
+        "b_ass_pse_file": "p_Ours_NA_7495_send:changed_extent.json",
+        "diff_functions": [
+            "changed_extent"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4196,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "4ff863b1db411481971de481002aa644057b1fa6",
+        "src_file": "drivers/staging/comedi/drivers/s626.c",
+        "a_bin_file": "v_Ours_NA_8433_s626.o",
+        "b_bin_file": "p_Ours_NA_8433_s626.o",
+        "a_ass_pse_file": "v_Ours_NA_8433_s626:s626_ai_load_polllist.json",
+        "b_ass_pse_file": "p_Ours_NA_8433_s626:s626_ai_load_polllist.json",
+        "diff_functions": [
+            "s626_ai_load_polllist"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 84,
+        "optimize_level": "O0",
+        "project_dir": "1_FFmpeg_security_pairs_435",
+        "source": "ffmpeg/ffmpeg",
+        "commit_id": "7d57ca4d9a75562fa32e40766211de150f8b3ee7",
+        "src_file": "libavformat/rtmppkt.c",
+        "a_bin_file": "v_RP_CVE-2016-10191_1593_rtmppkt.o",
+        "b_bin_file": "p_RP_CVE-2016-10191_1593_rtmppkt.o",
+        "a_ass_pse_file": "v_RP_CVE-2016-10191_1593_rtmppkt:rtmp_packet_read_one_chunk.json",
+        "b_ass_pse_file": "p_RP_CVE-2016-10191_1593_rtmppkt:rtmp_packet_read_one_chunk.json",
+        "diff_functions": [
+            "rtmp_packet_read_one_chunk"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4591,
+        "optimize_level": "O1",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "ec3833ed02ae6ef2a933ece9de7cbab0c64c699e",
+        "src_file": "kernel/rcu/tree.c",
+        "a_bin_file": "v_Ours_NA_7324_tree.o",
+        "b_bin_file": "p_Ours_NA_7324_tree.o",
+        "a_ass_pse_file": "v_Ours_NA_7324_tree:synchronize_sched_expedited_wait.json",
+        "b_ass_pse_file": "p_Ours_NA_7324_tree:synchronize_sched_expedited_wait.json",
+        "diff_functions": [
+            "synchronize_sched_expedited_wait"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4303,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "ba4a3550e93415f4ff300810b8d0659949fea193",
+        "src_file": "drivers/spi/spi-imx.c",
+        "a_bin_file": "v_Ours_NA_8381_spi-imx.o",
+        "b_bin_file": "p_Ours_NA_8381_spi-imx.o",
+        "a_ass_pse_file": "v_Ours_NA_8381_spi-imx:spi_imx_dma_transfer.json",
+        "b_ass_pse_file": "p_Ours_NA_8381_spi-imx:spi_imx_dma_transfer.json",
+        "diff_functions": [
+            "spi_imx_dma_transfer"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 3860,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "b328f3ce993c647c055f917afa947d6c2369461d",
+        "src_file": "drivers/pci/host/pcie-xilinx.c",
+        "a_bin_file": "v_Ours_NA_7298_pcie-xilinx.o",
+        "b_bin_file": "p_Ours_NA_7298_pcie-xilinx.o",
+        "a_ass_pse_file": "v_Ours_NA_7298_pcie-xilinx:xilinx_msi_teardown_irq.json",
+        "b_ass_pse_file": "p_Ours_NA_7298_pcie-xilinx:xilinx_msi_teardown_irq.json",
+        "diff_functions": [
+            "xilinx_msi_teardown_irq"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 3942,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "57bcd0a6364cd4eaa362d7ff1777e88ddf501602",
+        "src_file": "drivers/gpu/drm/amd/amdgpu/gmc_v6_0.c",
+        "a_bin_file": "v_Ours_NA_7077_gmc_v6_0.o",
+        "b_bin_file": "p_Ours_NA_7077_gmc_v6_0.o",
+        "a_ass_pse_file": "v_Ours_NA_7077_gmc_v6_0:gmc_v6_0_mc_program.json",
+        "b_ass_pse_file": "p_Ours_NA_7077_gmc_v6_0:gmc_v6_0_mc_program.json",
+        "diff_functions": [
+            "gmc_v6_0_mc_program"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 751,
+        "optimize_level": "O0",
+        "project_dir": "1_Libav_security_pairs_138",
+        "source": "libav/libav",
+        "commit_id": "364ec9dcb6760ae86b1efb418f6cab16cd629da1",
+        "src_file": "libavcodec/truemotion1.c",
+        "a_bin_file": "v_PDB_NA_554_truemotion1.o",
+        "b_bin_file": "p_PDB_NA_554_truemotion1.o",
+        "a_ass_pse_file": "v_PDB_NA_554_truemotion1:select_delta_tables.json",
+        "b_ass_pse_file": "p_PDB_NA_554_truemotion1:select_delta_tables.json",
+        "diff_functions": [
+            "select_delta_tables"
+        ],
+        "category": "security"
+    },
+    {
+        "id": 4035,
+        "optimize_level": "O0",
+        "project_dir": "1_Linux_security_pairs_new_4125",
+        "source": "torvalds/linux",
+        "commit_id": "b2c60d42db0fea1e6c4345739601024863566a13",
+        "src_file": "net/bluetooth/mgmt.c",
+        "a_bin_file": "v_Ours_NA_6718_mgmt.o",
+        "b_bin_file": "p_Ours_NA_6718_mgmt.o",
+        "a_ass_pse_file": "v_Ours_NA_6718_mgmt:read_index_list.json",
+        "b_ass_pse_file": "p_Ours_NA_6718_mgmt:read_index_list.json",
+        "diff_functions": [
+            "read_index_list"
+        ],
+        "category": "security"
+    }
+]

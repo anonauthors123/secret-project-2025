@@ -1,0 +1,83 @@
+{
+  "assembly_code_train": {
+    "file_name": "assembly_code/train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "assembly_code_dev": {
+    "file_name": "assembly_code/dev.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "assembly_code_test": {
+    "file_name": "assembly_code/test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "pseudo_code_train": {
+    "file_name": "pseudo_code/train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "pseudo_code_dev": {
+    "file_name": "pseudo_code/dev.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "pseudo_code_test": {
+    "file_name": "pseudo_code/test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "source_code_train": {
+    "file_name": "source_code/train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "source_code_dev": {
+    "file_name": "source_code/dev.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "source_code_test": {
+    "file_name": "source_code/test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  }
+}

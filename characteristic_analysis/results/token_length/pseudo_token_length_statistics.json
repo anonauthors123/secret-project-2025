@@ -1,0 +1,45 @@
+{
+    "all": {
+        "max_token_length": 36358,
+        "min_token_length": 13,
+        "mean_token_length": 1302.324840600576,
+        "median_token_length": 634.0,
+        "mean_cutoff_token_length": 1062.2972285067874,
+        "4096_percentage": 94.33874948580831
+    },
+    "O0": {
+        "max_token_length": 4096,
+        "min_token_length": 13,
+        "mean_token_length": 818.3466422121896,
+        "median_token_length": 528.0,
+        "4096_percentage": 100.0
+    },
+    "O1": {
+        "max_token_length": 4096,
+        "min_token_length": 14,
+        "mean_token_length": 1049.8551481301602,
+        "median_token_length": 612.0,
+        "4096_percentage": 100.0
+    },
+    "O2": {
+        "max_token_length": 4096,
+        "min_token_length": 14,
+        "mean_token_length": 1118.5124936900556,
+        "median_token_length": 658.5,
+        "4096_percentage": 100.0
+    },
+    "O3": {
+        "max_token_length": 4096,
+        "min_token_length": 14,
+        "mean_token_length": 1322.2151898734178,
+        "median_token_length": 858.0,
+        "4096_percentage": 100.0
+    },
+    "Os": {
+        "max_token_length": 4096,
+        "min_token_length": 14,
+        "mean_token_length": 989.7435515873016,
+        "median_token_length": 582.5,
+        "4096_percentage": 100.0
+    }
+}
